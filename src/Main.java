@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        String pattern = ("([0-9]{1})([0-9]{3})([0-9]{3})([0-9]{2})([0-9]{2})");
+        String pattern = ("([0-9])([0-9]{3})([0-9]{3})([0-9]{2})([0-9]{2})");
         String replacement = "+$1 ($2) $3-$4-$5";
 
         while (true) {
